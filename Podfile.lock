@@ -1,10 +1,15 @@
 PODS:
+  - BlockAlertsAnd-ActionSheets (1.0.5):
+    - BlockAlertsAnd-ActionSheets/TableAlertView
+  - BlockAlertsAnd-ActionSheets/TableAlertView (1.0.5)
   - MFSideMenu (0.5.2)
 
 DEPENDENCIES:
-  - MFSideMenu (~> 0.5.2)
+  - BlockAlertsAnd-ActionSheets
+  - MFSideMenu
 
 SPEC CHECKSUMS:
+  BlockAlertsAnd-ActionSheets: 34d4608673b6787ca4835d70913f473919b83aa5
   MFSideMenu: 5b27d9a112680a98458defbb2863cda45f2f2ffd
 
 COCOAPODS: 0.19.1

@@ -10,139 +10,7 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>11CF372750924BB7877A7E79</key>
-		<dict>
-			<key>fileRef</key>
-			<string>60FAE9B3A8174E55B2ED4055</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker</string>
-			</dict>
-		</dict>
-		<key>1E46B3774BAC401EA189BBE9</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>1EB29AC18383450BB7D6CA49</key>
-		<dict>
-			<key>fileRef</key>
-			<string>94AD0E5C014C4C07BB5F6242</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>3AE6E8515C354A199C524B48</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>Pods-environment.h</string>
-			<key>path</key>
-			<string>Pods-environment.h</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>3F92BAD0E2804026B18B83A2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BD2F463D9C524F748ADED1D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4ECEDF48D249451190FE4FF6</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>83A08AD9A2234C8EA8408102</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>535EE765900946E78A409A7C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>name</key>
-			<string>Pods.xcconfig</string>
-			<key>path</key>
-			<string>Pods.xcconfig</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>55C3D593302D4580A184C9B9</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>5AF1F0FCBABA430E967A898F</string>
-				<string>8146AAD3EAD34380BE6EE858</string>
-				<string>D70FE6E535334324A2809219</string>
-				<string>3F92BAD0E2804026B18B83A2</string>
-				<string>FBAC3D04D82D43BA87D57ECD</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5AF1F0FCBABA430E967A898F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7D0CE88FA22D401BA88589DA</string>
-				<string>C2EFC239EF7E49968662C98E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5D20AAD46BF04FF593E774B3</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>11CF372750924BB7877A7E79</string>
-				<string>9F8491542E2C4152995D4FCA</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>60FAE9B3A8174E55B2ED4055</key>
+		<key>01FDADA7ACD443D3818D6F71</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -157,23 +25,344 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>6726270BD07E47A5BBFEB3A0</key>
+		<key>02E75E58B8594B968239F23E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>Pods-dummy.m</string>
+			<key>path</key>
+			<string>Pods-dummy.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>05EDB36D372748DEB05A86EC</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>A95C62CB34134D3E912EA274</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>0BFDF10A200D41B88E01AF7C</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods-resources.sh</string>
+			<string>action-black-button.png</string>
 			<key>path</key>
-			<string>Pods-resources.sh</string>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-black-button.png</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>74D22396B21740F4A7671DF3</key>
+		<key>0D1CB15098BA4FB89EA336D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-black-button-selected.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-black-button-selected.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>0D39004A490342AFA30CB70B</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>BlockTextPromptAlertView.m</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockTextPromptAlertView.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>0E8F8B08FADA48FC81C2A076</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>button_grey@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/button_grey@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>13F9FC44304B4F2DA5D166A5</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-sheet-panel@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-sheet-panel@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>15E9904DD95843A0945B6F52</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>70937C61002C4D43BF3FA658</string>
+				<string>681E9822AE994F5FB6D32B59</string>
+				<string>01FDADA7ACD443D3818D6F71</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MFSideMenu</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>187DA3DD47A74B5EAA37778D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>2ED8A33D00504A79BF12FD11</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker</string>
+			</dict>
+		</dict>
+		<key>19E02139F585401CB9C7F04A</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C14292F3172E4E60A47133BF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1B59D8934693424598DC3CF7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods.xcconfig</string>
+			<key>path</key>
+			<string>Pods.xcconfig</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>1D5FE5CE1EB14D45AA0E19A2</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BlockUI.h</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ProjectSpecific/BlockUI.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>1F7873DB79D94F9D8F78047C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>button_grey.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/button_grey.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>1F9D9E61BA16480E9C1E8EDB</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>button_red.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/button_red.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2132FF8010604F839DDF4DD9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0D39004A490342AFA30CB70B</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker</string>
+			</dict>
+		</dict>
+		<key>215B4193E696497785990B9C</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>724DCEAD8D274B64B2944A0C</string>
+				<string>CBA182866F734F00B9530241</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>244D2AAEB22C43A1B0476916</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BlockActionSheet.h</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockActionSheet.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>25A2CF06A28B46F5B0385F24</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-red-button@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-red-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2C9F680C63694026A538DFF9</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>187DA3DD47A74B5EAA37778D</string>
+				<string>B36E8D44E3C94E6289D89A9F</string>
+				<string>82B70066989A42E3A7B8EF5D</string>
+				<string>2132FF8010604F839DDF4DD9</string>
+				<string>AF93EB7FBE2243A2A754EB48</string>
+				<string>6EA81736AADE48CD9DA52E5E</string>
+				<string>5DC690C3F6FC40BFB5074FA6</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>2ED8A33D00504A79BF12FD11</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>BlockActionSheet.m</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockActionSheet.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>2F7E875E801A496CBAFD22EF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>681E9822AE994F5FB6D32B59</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>33039742C34C4F26A13F2C39</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>C54DD757CF754C7DAE962F76</string>
+				<string>8EE902615E0A42E89DBF50C9</string>
+				<string>1F7873DB79D94F9D8F78047C</string>
+				<string>0E8F8B08FADA48FC81C2A076</string>
+				<string>1F9D9E61BA16480E9C1E8EDB</string>
+				<string>60CBC8B3B3684EA3A3D80886</string>
+				<string>0D1CB15098BA4FB89EA336D8</string>
+				<string>BE03D16A4A934B4B8F02FDC8</string>
+				<string>0BFDF10A200D41B88E01AF7C</string>
+				<string>7FE0196B523C431BAEA6C2F4</string>
+				<string>B0FA6B93B2034DA494BBA04D</string>
+				<string>9DB2C5FD80A843C4A7FBE0AE</string>
+				<string>CAF6D697FF834F8B83D6AB33</string>
+				<string>915E52E23E63409287A09491</string>
+				<string>A58F719AE59840A98B4E7FE7</string>
+				<string>4083B398B9FE404295D88826</string>
+				<string>D94FAB0D00D3434DB556404F</string>
+				<string>395789DF64CB4C6696DD661F</string>
+				<string>D772F6C6F1174D7981A51B66</string>
+				<string>13F9FC44304B4F2DA5D166A5</string>
+				<string>EB086C49B8604E0C9E27CD89</string>
+				<string>70B463E110834F10AE538901</string>
+				<string>7C0A7938CF5B4572AD62159C</string>
+				<string>BFAFC1449B6C4ED08FC93F50</string>
+				<string>9E466FF2038646A9A1363473</string>
+				<string>E4C5CA3DF45A4FE09F010B69</string>
+				<string>D4DF3B5A0D0F4BCCB547069E</string>
+				<string>25A2CF06A28B46F5B0385F24</string>
+				<string>AF489FBC9B2F441283286EB0</string>
+				<string>C68DE4BCFF9345D48D940E24</string>
+				<string>C93541E31C1A413995189A77</string>
+				<string>4C8B78972C324AC28EE56027</string>
+				<string>4186BAC46DAD4E82BDED30ED</string>
+				<string>F723AD145C60470BB0E1C2F8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>BlockAlertsAnd-ActionSheets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>33A9F6EB047349C68932AAE4</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>535EE765900946E78A409A7C</string>
+			<string>1B59D8934693424598DC3CF7</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -227,51 +416,25 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>7BEDA98109484BB6B710AAC7</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>8CECF3514EDD49DE8372104C</string>
-			<key>buildPhases</key>
-			<array>
-				<string>5D20AAD46BF04FF593E774B3</string>
-				<string>4ECEDF48D249451190FE4FF6</string>
-				<string>DC8CB765767449F288C89833</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>productName</key>
-			<string>Pods</string>
-			<key>productReference</key>
-			<string>B23CDEB02B1246B997398F5B</string>
-			<key>productType</key>
-			<string>com.apple.product-type.library.static</string>
-		</dict>
-		<key>7D0CE88FA22D401BA88589DA</key>
+		<key>395789DF64CB4C6696DD661F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
 			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>action-red-button@2x.png</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-red-button@2x.png</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>8146AAD3EAD34380BE6EE858</key>
+		<key>39D1EA35416B48B89F61239F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>A46E6E66CAE24C19BB3AE432</string>
+				<string>9D15DCD62C764C5FB6830FE8</string>
+				<string>15E9904DD95843A0945B6F52</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -280,30 +443,48 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>83A08AD9A2234C8EA8408102</key>
+		<key>39F54144726748A3AD328904</key>
 		<dict>
-			<key>fileRef</key>
-			<string>7D0CE88FA22D401BA88589DA</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Podfile</string>
+			<key>path</key>
+			<string>../Podfile</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+			<key>xcLanguageSpecificationIdentifier</key>
+			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>8CECF3514EDD49DE8372104C</key>
+		<key>4083B398B9FE404295D88826</key>
 		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>F3B0B6C8FF2844D997A5C8B2</string>
-				<string>74D22396B21740F4A7671DF3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-red-button-selected@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-red-button-selected@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>94AD0E5C014C4C07BB5F6242</key>
+		<key>4186BAC46DAD4E82BDED30ED</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-yellow-button.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-yellow-button.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>44EA050E1A7D4B189155BD81</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -312,115 +493,13 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>MFSideMenu.h</string>
+			<string>BlockTableAlertView.h</string>
 			<key>path</key>
-			<string>MFSideMenu/MFSideMenu/MFSideMenu.h</string>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockTableAlertView.h</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>9F8491542E2C4152995D4FCA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A9AFB2F2E61745C483799B3F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A1A0F26B55454DE887D975B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D2FC263332AB484EA1D328EB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict/>
-		</dict>
-		<key>A46E6E66CAE24C19BB3AE432</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>94AD0E5C014C4C07BB5F6242</string>
-				<string>D2FC263332AB484EA1D328EB</string>
-				<string>60FAE9B3A8174E55B2ED4055</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MFSideMenu</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A56CD8B7B6734CF99DC52BB9</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B4A32B04A5534E0CAC57C765</string>
-				<string>1E46B3774BAC401EA189BBE9</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>A9AFB2F2E61745C483799B3F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>Pods-dummy.m</string>
-			<key>path</key>
-			<string>Pods-dummy.m</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>ABF7AE406FD64E378A7044F6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>path</key>
-			<string>Pods-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-		</dict>
-		<key>B23CDEB02B1246B997398F5B</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>archive.ar</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>libPods.a</string>
-			<key>path</key>
-			<string>libPods.a</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>B4A32B04A5534E0CAC57C765</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>6.0</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>BA31BAB3E8764DB8A8F6BFA5</key>
+		<key>47D9D2F382974C839698FE27</key>
 		<dict>
 			<key>attributes</key>
 			<dict>
@@ -428,7 +507,7 @@
 				<string>0450</string>
 			</dict>
 			<key>buildConfigurationList</key>
-			<string>A56CD8B7B6734CF99DC52BB9</string>
+			<string>EA27C04903684CA5A6EC76F8</string>
 			<key>compatibilityVersion</key>
 			<string>Xcode 3.2</string>
 			<key>developmentRegion</key>
@@ -442,36 +521,45 @@
 				<string>en</string>
 			</array>
 			<key>mainGroup</key>
-			<string>55C3D593302D4580A184C9B9</string>
+			<string>A778F531298249DB8D3C6B96</string>
 			<key>productRefGroup</key>
-			<string>D70FE6E535334324A2809219</string>
+			<string>19E02139F585401CB9C7F04A</string>
 			<key>projectReferences</key>
 			<array/>
 			<key>targets</key>
 			<array>
-				<string>7BEDA98109484BB6B710AAC7</string>
+				<string>D969E9FD782348678374AC35</string>
 			</array>
 		</dict>
-		<key>BD2F463D9C524F748ADED1D6</key>
+		<key>4C8B78972C324AC28EE56027</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>535EE765900946E78A409A7C</string>
-				<string>3AE6E8515C354A199C524B48</string>
-				<string>BD9F32093B6F4C028048DCB5</string>
-				<string>6726270BD07E47A5BBFEB3A0</string>
-				<string>ABF7AE406FD64E378A7044F6</string>
-				<string>FEB32A425EC04EA2922DB64C</string>
-				<string>A9AFB2F2E61745C483799B3F</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
+			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods</string>
+			<string>alert-window@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-window@2x.png</string>
 			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>BD9F32093B6F4C028048DCB5</key>
+		<key>51B7E0BC107F4B62B2238B06</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BlockBackground.h</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockBackground.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>543FC43CFB6849D8BF4EC7A6</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -484,22 +572,59 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>C2EFC239EF7E49968662C98E</key>
+		<key>5DC690C3F6FC40BFB5074FA6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02E75E58B8594B968239F23E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>5FF41EB7076E4B90AF3E49A0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
+			<string>sourcecode.c.h</string>
 			<key>name</key>
-			<string>QuartzCore.framework</string>
+			<string>BlockAlertView.h</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockAlertView.h</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>D2FC263332AB484EA1D328EB</key>
+		<key>60CBC8B3B3684EA3A3D80886</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>button_red@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/button_red@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>6537E747FFB345C5A97BA145</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>BlockAlertView.m</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockAlertView.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>681E9822AE994F5FB6D32B59</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -514,37 +639,308 @@
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>D70FE6E535334324A2809219</key>
+		<key>6963CFD75C0A4A96B115C90D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>Pods-environment.h</string>
+			<key>path</key>
+			<string>Pods-environment.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>6EA81736AADE48CD9DA52E5E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>01FDADA7ACD443D3818D6F71</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fobjc-arc -DOS_OBJECT_USE_OBJC=0 -w -Xanalyzer -analyzer-disable-checker</string>
+			</dict>
+		</dict>
+		<key>70937C61002C4D43BF3FA658</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>MFSideMenu.h</string>
+			<key>path</key>
+			<string>MFSideMenu/MFSideMenu/MFSideMenu.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>70B463E110834F10AE538901</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-black-button@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-black-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>70DA01EF3D7441898BB3FA26</key>
+		<dict>
+			<key>fileRef</key>
+			<string>44EA050E1A7D4B189155BD81</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>724DCEAD8D274B64B2944A0C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>7286DD4A7C834992A5AC83B2</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>75C7F60997EE4591BAB3B65E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>name</key>
+			<string>BlockTextPromptAlertView.h</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockTextPromptAlertView.h</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7BE2229408B54D6484A8A136</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>BlockBackground.m</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockBackground.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7C0A7938CF5B4572AD62159C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-gray-button.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-gray-button.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>7FD194E1205540DDB6B7B8D6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>51B7E0BC107F4B62B2238B06</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>7FE0196B523C431BAEA6C2F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-black-button@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-black-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>82B70066989A42E3A7B8EF5D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7BE2229408B54D6484A8A136</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker</string>
+			</dict>
+		</dict>
+		<key>85A9699A980C4529B0C3C3FF</key>
+		<dict>
+			<key>fileRef</key>
+			<string>75C7F60997EE4591BAB3B65E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>8BBAC0638EF4464BBC3282EA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods-resources.sh</string>
+			<key>path</key>
+			<string>Pods-resources.sh</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>8EE902615E0A42E89DBF50C9</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>arrived@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/arrived@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>915E52E23E63409287A09491</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-gray-button@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-gray-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>952B7D8F5EDC4A59974E8797</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>6.0</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>96F46773DA2843949D4A3A16</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods-acknowledgements.markdown</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.markdown</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>9D15DCD62C764C5FB6830FE8</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>B23CDEB02B1246B997398F5B</string>
+				<string>244D2AAEB22C43A1B0476916</string>
+				<string>2ED8A33D00504A79BF12FD11</string>
+				<string>5FF41EB7076E4B90AF3E49A0</string>
+				<string>6537E747FFB345C5A97BA145</string>
+				<string>51B7E0BC107F4B62B2238B06</string>
+				<string>7BE2229408B54D6484A8A136</string>
+				<string>75C7F60997EE4591BAB3B65E</string>
+				<string>0D39004A490342AFA30CB70B</string>
+				<string>1D5FE5CE1EB14D45AA0E19A2</string>
+				<string>B1208CFC3933404E90A80D4E</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>BlockAlertsAnd-ActionSheets</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>DC8CB765767449F288C89833</key>
+		<key>9DB2C5FD80A843C4A7FBE0AE</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>1EB29AC18383450BB7D6CA49</string>
-				<string>A1A0F26B55454DE887D975B4</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-gray-button-selected@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-gray-button-selected@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
 		</dict>
-		<key>F3B0B6C8FF2844D997A5C8B2</key>
+		<key>9E466FF2038646A9A1363473</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-green-button.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-green-button.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>9F51A903A4AD48BA88E5CC48</key>
+		<dict>
+			<key>fileRef</key>
+			<string>244D2AAEB22C43A1B0476916</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>A4A12B5A12A246818E09FB81</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>535EE765900946E78A409A7C</string>
+			<string>1B59D8934693424598DC3CF7</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>ALWAYS_SEARCH_USER_PATHS</key>
@@ -599,36 +995,469 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>FBAC3D04D82D43BA87D57ECD</key>
+		<key>A58F719AE59840A98B4E7FE7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Podfile</string>
+			<string>action-red-button-selected.png</string>
 			<key>path</key>
-			<string>../Podfile</string>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-red-button-selected.png</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>FEB32A425EC04EA2922DB64C</key>
+		<key>A778F531298249DB8D3C6B96</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>215B4193E696497785990B9C</string>
+				<string>39D1EA35416B48B89F61239F</string>
+				<string>19E02139F585401CB9C7F04A</string>
+				<string>FCB9017A24E34C2392D02690</string>
+				<string>E54611FD82EF49D1A0322E71</string>
+				<string>39F54144726748A3AD328904</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A95C62CB34134D3E912EA274</key>
+		<dict>
+			<key>fileRef</key>
+			<string>724DCEAD8D274B64B2944A0C</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>AEED0EB0109D4E98A3B9D611</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>name</key>
+			<string>BlockTableAlertView.m</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/ToAddToYourProjects/BlockTableAlertView.m</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AF489FBC9B2F441283286EB0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>name</key>
-			<string>Pods-acknowledgements.markdown</string>
+			<string>alert-window-landscape.png</string>
 			<key>path</key>
-			<string>Pods-acknowledgements.markdown</string>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-window-landscape.png</string>
 			<key>sourceTree</key>
 			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>AF93EB7FBE2243A2A754EB48</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AEED0EB0109D4E98A3B9D611</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker</string>
+			</dict>
+		</dict>
+		<key>B0FA6B93B2034DA494BBA04D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-gray-button-selected.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-gray-button-selected.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>B1208CFC3933404E90A80D4E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>44EA050E1A7D4B189155BD81</string>
+				<string>AEED0EB0109D4E98A3B9D611</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>TableAlertView</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B36E8D44E3C94E6289D89A9F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6537E747FFB345C5A97BA145</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-w -Xanalyzer -analyzer-disable-checker</string>
+			</dict>
+		</dict>
+		<key>BADA895518CA486DAF7D2DB7</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1D5FE5CE1EB14D45AA0E19A2</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>BE03D16A4A934B4B8F02FDC8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-black-button-selected@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-black-button-selected@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>BFAFC1449B6C4ED08FC93F50</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-gray-button@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-gray-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C14292F3172E4E60A47133BF</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>libPods.a</string>
+			<key>path</key>
+			<string>libPods.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C54DD757CF754C7DAE962F76</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>arrived.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/arrived.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C57C9C3B560448CD94A200F7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>Pods-acknowledgements.plist</string>
+			<key>path</key>
+			<string>Pods-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C5A4E3BDDE2E41E797964483</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5FF41EB7076E4B90AF3E49A0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>C68DE4BCFF9345D48D940E24</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-window-landscape@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-window-landscape@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>C93541E31C1A413995189A77</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-window.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-window.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CAF6D697FF834F8B83D6AB33</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-gray-button.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-gray-button.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>CBA182866F734F00B9530241</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>QuartzCore.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/QuartzCore.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>D3A5E850CEE94EDB941F17E9</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>A4A12B5A12A246818E09FB81</string>
+				<string>33A9F6EB047349C68932AAE4</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>D4DF3B5A0D0F4BCCB547069E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-red-button.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-red-button.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D772F6C6F1174D7981A51B66</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-sheet-panel.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-sheet-panel.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D930FD721CB44AC398758E4D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1B59D8934693424598DC3CF7</string>
+				<string>6963CFD75C0A4A96B115C90D</string>
+				<string>543FC43CFB6849D8BF4EC7A6</string>
+				<string>8BBAC0638EF4464BBC3282EA</string>
+				<string>C57C9C3B560448CD94A200F7</string>
+				<string>96F46773DA2843949D4A3A16</string>
+				<string>02E75E58B8594B968239F23E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D94FAB0D00D3434DB556404F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>action-red-button.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/ActionSheet/action-red-button.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>D969E9FD782348678374AC35</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>D3A5E850CEE94EDB941F17E9</string>
+			<key>buildPhases</key>
+			<array>
+				<string>2C9F680C63694026A538DFF9</string>
+				<string>05EDB36D372748DEB05A86EC</string>
+				<string>FAD2F129837B4EC580B6074A</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>productName</key>
+			<string>Pods</string>
+			<key>productReference</key>
+			<string>C14292F3172E4E60A47133BF</string>
+			<key>productType</key>
+			<string>com.apple.product-type.library.static</string>
+		</dict>
+		<key>E25981E7633D418A960793CE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>70937C61002C4D43BF3FA658</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict/>
+		</dict>
+		<key>E4C5CA3DF45A4FE09F010B69</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-green-button@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-green-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>E54611FD82EF49D1A0322E71</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>D930FD721CB44AC398758E4D</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Targets Support Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>EA27C04903684CA5A6EC76F8</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>7286DD4A7C834992A5AC83B2</string>
+				<string>952B7D8F5EDC4A59974E8797</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>EB086C49B8604E0C9E27CD89</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-black-button.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-black-button.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>F723AD145C60470BB0E1C2F8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>alert-yellow-button@2x.png</string>
+			<key>path</key>
+			<string>BlockAlertsAnd-ActionSheets/BlockAlertsDemo/images/AlertView/alert-yellow-button@2x.png</string>
+			<key>sourceTree</key>
+			<string>SOURCE_ROOT</string>
+		</dict>
+		<key>FAD2F129837B4EC580B6074A</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>9F51A903A4AD48BA88E5CC48</string>
+				<string>C5A4E3BDDE2E41E797964483</string>
+				<string>7FD194E1205540DDB6B7B8D6</string>
+				<string>85A9699A980C4529B0C3C3FF</string>
+				<string>BADA895518CA486DAF7D2DB7</string>
+				<string>70DA01EF3D7441898BB3FA26</string>
+				<string>E25981E7633D418A960793CE</string>
+				<string>2F7E875E801A496CBAFD22EF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>FCB9017A24E34C2392D02690</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>33039742C34C4F26A13F2C39</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Resources</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 	</dict>
 	<key>rootObject</key>
-	<string>BA31BAB3E8764DB8A8F6BFA5</string>
+	<string>47D9D2F382974C839698FE27</string>
 </dict>
 </plist>

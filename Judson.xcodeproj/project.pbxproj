@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		3613F62817714126B8F263AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F496D6C05C47AF83968411 /* libPods.a */; };
 		5E38C73417721411005BA763 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38C73317721411005BA763 /* MessageUI.framework */; };
+		5E6A1F8A17722C5500AE2361 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A1F8817722C5500AE2361 /* EventKit.framework */; };
+		5E6A1F8B17722C5500AE2361 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A1F8917722C5500AE2361 /* EventKitUI.framework */; };
 		5E6E939F1771FBED00EFB683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E939E1771FBED00EFB683 /* UIKit.framework */; };
 		5E6E93A11771FBED00EFB683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A01771FBED00EFB683 /* Foundation.framework */; };
 		5E6E93A31771FBED00EFB683 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A21771FBED00EFB683 /* CoreGraphics.framework */; };
@@ -66,6 +68,9 @@
 /* Begin PBXFileReference section */
 		41F496D6C05C47AF83968411 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E38C73317721411005BA763 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		5E6A1F8817722C5500AE2361 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
+		5E6A1F8917722C5500AE2361 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
+		5E6A1F8C1772315D00AE2361 /* NSString+Formatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatting.h"; sourceTree = "<group>"; };
 		5E6E939B1771FBED00EFB683 /* Judson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Judson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6E939E1771FBED00EFB683 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E6E93A01771FBED00EFB683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -118,6 +123,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E6A1F8A17722C5500AE2361 /* EventKit.framework in Frameworks */,
+				5E6A1F8B17722C5500AE2361 /* EventKitUI.framework in Frameworks */,
 				5E38C73417721411005BA763 /* MessageUI.framework in Frameworks */,
 				5E6E939F1771FBED00EFB683 /* UIKit.framework in Frameworks */,
 				5E6E93A11771FBED00EFB683 /* Foundation.framework in Frameworks */,
@@ -166,6 +173,8 @@
 		5E6E939D1771FBED00EFB683 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E6A1F8817722C5500AE2361 /* EventKit.framework */,
+				5E6A1F8917722C5500AE2361 /* EventKitUI.framework */,
 				5E38C73317721411005BA763 /* MessageUI.framework */,
 				5E6E939E1771FBED00EFB683 /* UIKit.framework */,
 				5E6E93A01771FBED00EFB683 /* Foundation.framework */,
@@ -180,6 +189,7 @@
 		5E6E93A61771FBED00EFB683 /* Judson */ = {
 			isa = PBXGroup;
 			children = (
+				5E6A1F8C1772315D00AE2361 /* NSString+Formatting.h */,
 				5E8102E71772011C004A1D9D /* KLSideMenuViewController.h */,
 				5E8102E81772011C004A1D9D /* KLSideMenuViewController.m */,
 				5E6E93EE1771FD9600EFB683 /* KLAppConstants.h */,
