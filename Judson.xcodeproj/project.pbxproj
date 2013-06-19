@@ -19,14 +19,20 @@
 		5E6E93B71771FBED00EFB683 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E93B61771FBED00EFB683 /* Default-568h@2x.png */; };
 		5E6E93BA1771FBED00EFB683 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E93B81771FBED00EFB683 /* MainStoryboard.storyboard */; };
 		5E6E93BD1771FBED00EFB683 /* Judson.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93BB1771FBED00EFB683 /* Judson.xcdatamodeld */; };
-		5E6E93C01771FBED00EFB683 /* JCMasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93BF1771FBED00EFB683 /* JCMasterViewController.m */; };
-		5E6E93C31771FBED00EFB683 /* JCDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93C21771FBED00EFB683 /* JCDetailViewController.m */; };
 		5E6E93CB1771FBED00EFB683 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93CA1771FBED00EFB683 /* SenTestingKit.framework */; };
 		5E6E93CC1771FBED00EFB683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E939E1771FBED00EFB683 /* UIKit.framework */; };
 		5E6E93CD1771FBED00EFB683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A01771FBED00EFB683 /* Foundation.framework */; };
 		5E6E93CE1771FBED00EFB683 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A41771FBED00EFB683 /* CoreData.framework */; };
 		5E6E93D61771FBED00EFB683 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5E6E93D41771FBED00EFB683 /* InfoPlist.strings */; };
 		5E6E93D91771FBED00EFB683 /* JudsonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93D81771FBED00EFB683 /* JudsonTests.m */; };
+		5E6E93E41771FCFB00EFB683 /* KLCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93E31771FCFB00EFB683 /* KLCoreDataController.m */; };
+		5E6E93E51771FCFB00EFB683 /* KLCoreDataController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93E31771FCFB00EFB683 /* KLCoreDataController.m */; };
+		5E6E93E81771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93E71771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m */; };
+		5E6E93E91771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93E71771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m */; };
+		5E6E93EC1771FD5700EFB683 /* KLErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93EA1771FD5700EFB683 /* KLErrorHandling.m */; };
+		5E6E93ED1771FD5700EFB683 /* KLErrorHandling.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93EA1771FD5700EFB683 /* KLErrorHandling.m */; };
+		5E6E93F01771FD9600EFB683 /* KLAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93EF1771FD9600EFB683 /* KLAppConstants.m */; };
+		5E6E93F11771FD9600EFB683 /* KLAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93EF1771FD9600EFB683 /* KLAppConstants.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,16 +62,20 @@
 		5E6E93B61771FBED00EFB683 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		5E6E93B91771FBED00EFB683 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		5E6E93BC1771FBED00EFB683 /* Judson.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Judson.xcdatamodel; sourceTree = "<group>"; };
-		5E6E93BE1771FBED00EFB683 /* JCMasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCMasterViewController.h; sourceTree = "<group>"; };
-		5E6E93BF1771FBED00EFB683 /* JCMasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCMasterViewController.m; sourceTree = "<group>"; };
-		5E6E93C11771FBED00EFB683 /* JCDetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCDetailViewController.h; sourceTree = "<group>"; };
-		5E6E93C21771FBED00EFB683 /* JCDetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCDetailViewController.m; sourceTree = "<group>"; };
 		5E6E93C91771FBED00EFB683 /* JudsonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JudsonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6E93CA1771FBED00EFB683 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
 		5E6E93D31771FBED00EFB683 /* JudsonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JudsonTests-Info.plist"; sourceTree = "<group>"; };
 		5E6E93D51771FBED00EFB683 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5E6E93D71771FBED00EFB683 /* JudsonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JudsonTests.h; sourceTree = "<group>"; };
 		5E6E93D81771FBED00EFB683 /* JudsonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JudsonTests.m; sourceTree = "<group>"; };
+		5E6E93E21771FCFB00EFB683 /* KLCoreDataController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLCoreDataController.h; sourceTree = "<group>"; };
+		5E6E93E31771FCFB00EFB683 /* KLCoreDataController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLCoreDataController.m; sourceTree = "<group>"; };
+		5E6E93E61771FD2D00EFB683 /* UIApplication+DocumentsDirectory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+DocumentsDirectory.h"; sourceTree = "<group>"; };
+		5E6E93E71771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+DocumentsDirectory.m"; sourceTree = "<group>"; };
+		5E6E93EA1771FD5700EFB683 /* KLErrorHandling.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLErrorHandling.m; sourceTree = "<group>"; };
+		5E6E93EB1771FD5700EFB683 /* KLErrorHandling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLErrorHandling.h; sourceTree = "<group>"; };
+		5E6E93EE1771FD9600EFB683 /* KLAppConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLAppConstants.h; sourceTree = "<group>"; };
+		5E6E93EF1771FD9600EFB683 /* KLAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLAppConstants.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,13 +138,17 @@
 		5E6E93A61771FBED00EFB683 /* Judson */ = {
 			isa = PBXGroup;
 			children = (
+				5E6E93EE1771FD9600EFB683 /* KLAppConstants.h */,
+				5E6E93EF1771FD9600EFB683 /* KLAppConstants.m */,
+				5E6E93EA1771FD5700EFB683 /* KLErrorHandling.m */,
+				5E6E93EB1771FD5700EFB683 /* KLErrorHandling.h */,
+				5E6E93E61771FD2D00EFB683 /* UIApplication+DocumentsDirectory.h */,
+				5E6E93E71771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m */,
+				5E6E93E21771FCFB00EFB683 /* KLCoreDataController.h */,
+				5E6E93E31771FCFB00EFB683 /* KLCoreDataController.m */,
 				5E6E93AF1771FBED00EFB683 /* JCAppDelegate.h */,
 				5E6E93B01771FBED00EFB683 /* JCAppDelegate.m */,
 				5E6E93B81771FBED00EFB683 /* MainStoryboard.storyboard */,
-				5E6E93BE1771FBED00EFB683 /* JCMasterViewController.h */,
-				5E6E93BF1771FBED00EFB683 /* JCMasterViewController.m */,
-				5E6E93C11771FBED00EFB683 /* JCDetailViewController.h */,
-				5E6E93C21771FBED00EFB683 /* JCDetailViewController.m */,
 				5E6E93BB1771FBED00EFB683 /* Judson.xcdatamodeld */,
 				5E6E93A71771FBED00EFB683 /* Supporting Files */,
 			);
@@ -288,8 +302,10 @@
 				5E6E93AD1771FBED00EFB683 /* main.m in Sources */,
 				5E6E93B11771FBED00EFB683 /* JCAppDelegate.m in Sources */,
 				5E6E93BD1771FBED00EFB683 /* Judson.xcdatamodeld in Sources */,
-				5E6E93C01771FBED00EFB683 /* JCMasterViewController.m in Sources */,
-				5E6E93C31771FBED00EFB683 /* JCDetailViewController.m in Sources */,
+				5E6E93E41771FCFB00EFB683 /* KLCoreDataController.m in Sources */,
+				5E6E93E81771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m in Sources */,
+				5E6E93EC1771FD5700EFB683 /* KLErrorHandling.m in Sources */,
+				5E6E93F01771FD9600EFB683 /* KLAppConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +314,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6E93D91771FBED00EFB683 /* JudsonTests.m in Sources */,
+				5E6E93E51771FCFB00EFB683 /* KLCoreDataController.m in Sources */,
+				5E6E93E91771FD2D00EFB683 /* UIApplication+DocumentsDirectory.m in Sources */,
+				5E6E93ED1771FD5700EFB683 /* KLErrorHandling.m in Sources */,
+				5E6E93F11771FD9600EFB683 /* KLAppConstants.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

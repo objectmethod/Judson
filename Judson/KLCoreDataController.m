@@ -24,17 +24,17 @@
 - (void)saveContext {
 	NSError* error;
 	if(![self.managedObjectContext save:&error]) {
-		[self postNotificationForError:error];
+		PostNSError(error);
 		
 		NSLog(@"Failed to save to data store: %@", [error localizedDescription]);
 		NSArray* detailedErrors = [[error userInfo] objectForKey:NSDetailedErrorsKey];
 		if(detailedErrors != nil && [detailedErrors count] > 0) {
 			for(NSError* detailedError in detailedErrors) {
-				DDLogError(@"  DetailedError: %@", [detailedError userInfo]);
+				NSLog(@"  DetailedError: %@", [detailedError userInfo]);
 			}
 		}
 		else {
-			DDLogError(@"  %@", [error userInfo]);
+			NSLog(@"  %@", [error userInfo]);
 		}
 	}
 }
@@ -112,7 +112,7 @@
     NSError *error = nil;
     _persistentStoreCoordinator = [[NSPersistentStoreCoordinator alloc] initWithManagedObjectModel:[self managedObjectModel]];
     if (![_persistentStoreCoordinator addPersistentStoreWithType:NSSQLiteStoreType configuration:nil URL:self.storeURL options:options error:&error]) {
-        [self postNotificationForError:error];
+        PostNSError(error);
     }
     
     return _persistentStoreCoordinator;

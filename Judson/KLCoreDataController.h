@@ -1,7 +1,6 @@
 #import <CoreData/CoreData.h>
-#import "KLBaseObject.h"
 
-@interface KLCoreDataController : KLBaseObject
+@interface KLCoreDataController : NSObject
 
 + (KLCoreDataController *)sharedInstance;
 

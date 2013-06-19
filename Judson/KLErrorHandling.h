@@ -1,6 +1,6 @@
 #import "KLAppConstants.h"
 
-#define PostNSError(__error) DDLogError(@"Error: %@", __error); \
+#define PostNSError(__error) NSLog(@"Error: %@", __error); \
     [[NSNotificationCenter defaultCenter] \
     postNotificationName:KL_NOTIFICATION_ERROR \
     object:__error \
@@ -22,7 +22,5 @@ typedef NS_ENUM (NSInteger, KLErrorCode) {
 #define KLHTTPStatusCodeKey @"KLHTTPStatusCodeKey"
 
 @interface KLErrorHandling : NSObject
-
-+ (int) getHttpStatusCodeFromError:(NSError*)error;
 
 @end
