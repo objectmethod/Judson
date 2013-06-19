@@ -3,9 +3,26 @@
 
 @interface JCEventDetailsViewController ()
 
+@property (strong, nonatomic) NSDictionary *event;
+
 @end
 
 @implementation JCEventDetailsViewController
+
+- (void)viewDidLoad {
+	[super viewDidLoad];
+	
+	self.event = @{
+				@"title" : @"Judson Collegiate Invitational & Legends Tour Atlanta Pro-Am",
+	@"location" : @"Country Club of Roswell",
+	@"address" : @"2500 Club Springs Drive",
+	@"city" : @"Roswell",
+	@"state" : @"GA",
+	@"zip" : @"30076",
+	@"charity_name" : @"Children's Healthcare of Atlanta",
+	@"charity_website" : @"http://www.choa.org",
+	@"website" : @"http://www.judsongolf.com"};
+}
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
@@ -68,15 +85,29 @@
 }
 
 - (void) showCharity {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.choa.org/"]];
+	NSString *urlString = [self.event objectForKey:@"charity_website"];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
 }
 
 - (void) showWebsite {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.judsongolf.com"]];
+	NSString *urlString = [self.event objectForKey:@"website"];
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
 }
 
 - (void) showMap {
-	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://maps.apple.com/?q=Country+Club+of+Roswell+2500+Club+Springs+Drive+Roswell,+GA+30076"]];
+	NSString *location = [self.event objectForKey:@"location"];
+	NSString *address = [self.event objectForKey:@"address"];
+	NSString *city = [self.event objectForKey:@"city"];
+	NSString *state = [self.event objectForKey:@"state"];
+	NSString *zip = [self.event objectForKey:@"zip"];
+	
+	NSString *query = [NSString stringWithFormat:@"%@ %@ %@, %@ %@", location, address, city, state, zip];
+	
+	query = [query stringByAddingPercentEscapesUsingEncoding:NSUTF8StringEncoding];
+	
+	NSString *urlString = [NSString stringWithFormat:@"http://maps.apple.com/?q=%@", query];
+	
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:urlString]];
 }
 
 @end

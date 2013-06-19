@@ -139,4 +139,12 @@
 	[self promptToAddEventToCalendarWithTitle:title startDate:startDate endDate:endDate allDay:allDay];
 }
 
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section {
+	if (section == 0) {
+		return @"Tap any date to automatically add it to your calendar.";
+	}
+	
+	return nil;
+}
+
 @end

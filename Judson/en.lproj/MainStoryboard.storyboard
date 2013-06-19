@@ -452,32 +452,11 @@
                         <rect key="frame" x="0.0" y="64" width="320" height="504"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" cocoaTouchSystemColor="groupTableViewBackgroundColor"/>
-                        <view key="tableHeaderView" contentMode="scaleToFill" id="Ghf-Ge-e20">
-                            <rect key="frame" x="0.0" y="0.0" width="320" height="64"/>
-                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            <subviews>
-                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Judson Collegiate Invitational &amp; Legends Tour Atlanta Pro-Am" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="300" translatesAutoresizingMaskIntoConstraints="NO" id="QYM-7c-ojc">
-                                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                                    <constraints>
-                                        <constraint firstAttribute="width" constant="300" id="35f-3D-qXf"/>
-                                        <constraint firstAttribute="height" constant="44" id="J9K-Zs-Npq"/>
-                                    </constraints>
-                                    <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
-                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
-                                    <nil key="highlightedColor"/>
-                                </label>
-                            </subviews>
-                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
-                            <constraints>
-                                <constraint firstItem="QYM-7c-ojc" firstAttribute="centerX" secondItem="Ghf-Ge-e20" secondAttribute="centerX" type="default" id="FVI-fT-Ny8"/>
-                                <constraint firstItem="QYM-7c-ojc" firstAttribute="centerY" secondItem="Ghf-Ge-e20" secondAttribute="centerY" type="default" id="VGX-Es-BVA"/>
-                            </constraints>
-                        </view>
                         <sections>
-                            <tableViewSection id="Bte-hr-f2w">
+                            <tableViewSection headerTitle="Judson Collegiate Invitational &amp; Legends Tour Atlanta Pro-Am" id="Bte-hr-f2w">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="QRr-Zg-Bga" detailTextLabel="1ju-Jp-nLA" style="IBUITableViewCellStyleValue2" id="zHR-Ua-zNc">
-                                        <rect key="frame" x="0.0" y="74" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="67" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
@@ -502,7 +481,7 @@
                             <tableViewSection id="VMc-kI-NiW">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="N4Q-Tj-ZfN" detailTextLabel="r1P-13-8dW" rowHeight="80" style="IBUITableViewCellStyleValue2" id="qnH-oF-4ZZ">
-                                        <rect key="frame" x="0.0" y="140" width="320" height="82"/>
+                                        <rect key="frame" x="0.0" y="133" width="320" height="82"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="79"/>
@@ -518,7 +497,8 @@
                                                 <label opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="left" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" preferredMaxLayoutWidth="175" id="r1P-13-8dW">
                                                     <rect key="frame" x="83" y="11" width="175" height="57"/>
                                                     <autoresizingMask key="autoresizingMask"/>
-                                                    <string key="text">Country Club of Roswell 2500 Club Springs Drive
+                                                    <string key="text">Country Club of Roswell
+2500 Club Springs Drive
 Roswell, GA 30076</string>
                                                     <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
                                                     <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -533,7 +513,7 @@ Roswell, GA 30076</string>
                             <tableViewSection id="G1c-Zr-qh1">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="KS7-Cg-lLq" detailTextLabel="hmU-cG-d5x" style="IBUITableViewCellStyleValue2" id="Lna-uC-dn1">
-                                        <rect key="frame" x="0.0" y="242" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="235" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
@@ -562,7 +542,7 @@ Roswell, GA 30076</string>
                             <tableViewSection id="JLe-BE-o0v">
                                 <cells>
                                     <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" textLabel="Rbk-Rg-s3A" detailTextLabel="gJH-nI-7NR" style="IBUITableViewCellStyleValue2" id="zJz-UX-Tk0">
-                                        <rect key="frame" x="0.0" y="308" width="320" height="46"/>
+                                        <rect key="frame" x="0.0" y="301" width="320" height="46"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="10" y="1" width="300" height="43"/>
