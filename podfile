@@ -1,0 +1,6 @@
+# vim: set filetype=ruby:
+platform :ios, '6.0'
+
+inhibit_all_warnings!
+
+pod 'MFSideMenu', '~> 0.5.2'
