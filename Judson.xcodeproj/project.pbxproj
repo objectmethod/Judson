@@ -36,6 +36,12 @@
 		5E6E93F11771FD9600EFB683 /* KLAppConstants.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6E93EF1771FD9600EFB683 /* KLAppConstants.m */; };
 		5E8102E91772011C004A1D9D /* KLSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102E81772011C004A1D9D /* KLSideMenuViewController.m */; };
 		5E8102EA1772011C004A1D9D /* KLSideMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102E81772011C004A1D9D /* KLSideMenuViewController.m */; };
+		5E8102ED17720216004A1D9D /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8102EB17720216004A1D9D /* menu-icon.png */; };
+		5E8102EE17720216004A1D9D /* menu-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8102EB17720216004A1D9D /* menu-icon.png */; };
+		5E8102EF17720216004A1D9D /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8102EC17720216004A1D9D /* menu-icon@2x.png */; };
+		5E8102F017720216004A1D9D /* menu-icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8102EC17720216004A1D9D /* menu-icon@2x.png */; };
+		5E8102F31772025C004A1D9D /* JCEventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102F21772025C004A1D9D /* JCEventDetailsViewController.m */; };
+		5E8102F41772025C004A1D9D /* JCEventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102F21772025C004A1D9D /* JCEventDetailsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -82,6 +88,10 @@
 		5E6E93EF1771FD9600EFB683 /* KLAppConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLAppConstants.m; sourceTree = "<group>"; };
 		5E8102E71772011C004A1D9D /* KLSideMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KLSideMenuViewController.h; sourceTree = "<group>"; };
 		5E8102E81772011C004A1D9D /* KLSideMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KLSideMenuViewController.m; sourceTree = "<group>"; };
+		5E8102EB17720216004A1D9D /* menu-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon.png"; sourceTree = "<group>"; };
+		5E8102EC17720216004A1D9D /* menu-icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "menu-icon@2x.png"; sourceTree = "<group>"; };
+		5E8102F11772025C004A1D9D /* JCEventDetailsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCEventDetailsViewController.h; sourceTree = "<group>"; };
+		5E8102F21772025C004A1D9D /* JCEventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCEventDetailsViewController.m; sourceTree = "<group>"; };
 		F97B98CFC85F412CA6FC0281 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -163,6 +173,8 @@
 				5E6E93B81771FBED00EFB683 /* MainStoryboard.storyboard */,
 				5E6E93BB1771FBED00EFB683 /* Judson.xcdatamodeld */,
 				5E6E93A71771FBED00EFB683 /* Supporting Files */,
+				5E8102F11772025C004A1D9D /* JCEventDetailsViewController.h */,
+				5E8102F21772025C004A1D9D /* JCEventDetailsViewController.m */,
 			);
 			path = Judson;
 			sourceTree = "<group>";
@@ -170,6 +182,8 @@
 		5E6E93A71771FBED00EFB683 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				5E8102EB17720216004A1D9D /* menu-icon.png */,
+				5E8102EC17720216004A1D9D /* menu-icon@2x.png */,
 				5E6E93A81771FBED00EFB683 /* Judson-Info.plist */,
 				5E6E93A91771FBED00EFB683 /* InfoPlist.strings */,
 				5E6E93AC1771FBED00EFB683 /* main.m */,
@@ -279,6 +293,8 @@
 				5E6E93B51771FBED00EFB683 /* Default@2x.png in Resources */,
 				5E6E93B71771FBED00EFB683 /* Default-568h@2x.png in Resources */,
 				5E6E93BA1771FBED00EFB683 /* MainStoryboard.storyboard in Resources */,
+				5E8102ED17720216004A1D9D /* menu-icon.png in Resources */,
+				5E8102EF17720216004A1D9D /* menu-icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,6 +303,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				5E6E93D61771FBED00EFB683 /* InfoPlist.strings in Resources */,
+				5E8102EE17720216004A1D9D /* menu-icon.png in Resources */,
+				5E8102F017720216004A1D9D /* menu-icon@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -349,6 +367,7 @@
 				5E6E93EC1771FD5700EFB683 /* KLErrorHandling.m in Sources */,
 				5E6E93F01771FD9600EFB683 /* KLAppConstants.m in Sources */,
 				5E8102E91772011C004A1D9D /* KLSideMenuViewController.m in Sources */,
+				5E8102F31772025C004A1D9D /* JCEventDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,6 +381,7 @@
 				5E6E93ED1771FD5700EFB683 /* KLErrorHandling.m in Sources */,
 				5E6E93F11771FD9600EFB683 /* KLAppConstants.m in Sources */,
 				5E8102EA1772011C004A1D9D /* KLSideMenuViewController.m in Sources */,
+				5E8102F41772025C004A1D9D /* JCEventDetailsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

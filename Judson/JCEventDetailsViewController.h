@@ -1,0 +1,3 @@
+@interface JCEventDetailsViewController : UITableViewController
+
+@end
