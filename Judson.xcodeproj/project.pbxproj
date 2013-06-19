@@ -11,6 +11,8 @@
 		5E38C73417721411005BA763 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38C73317721411005BA763 /* MessageUI.framework */; };
 		5E6A1F8A17722C5500AE2361 /* EventKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A1F8817722C5500AE2361 /* EventKit.framework */; };
 		5E6A1F8B17722C5500AE2361 /* EventKitUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6A1F8917722C5500AE2361 /* EventKitUI.framework */; };
+		5E6A1F93177242B900AE2361 /* JCTicketSalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A1F92177242B900AE2361 /* JCTicketSalesViewController.m */; };
+		5E6A1F94177242B900AE2361 /* JCTicketSalesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E6A1F92177242B900AE2361 /* JCTicketSalesViewController.m */; };
 		5E6E939F1771FBED00EFB683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E939E1771FBED00EFB683 /* UIKit.framework */; };
 		5E6E93A11771FBED00EFB683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A01771FBED00EFB683 /* Foundation.framework */; };
 		5E6E93A31771FBED00EFB683 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A21771FBED00EFB683 /* CoreGraphics.framework */; };
@@ -71,6 +73,8 @@
 		5E6A1F8817722C5500AE2361 /* EventKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKit.framework; path = System/Library/Frameworks/EventKit.framework; sourceTree = SDKROOT; };
 		5E6A1F8917722C5500AE2361 /* EventKitUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = EventKitUI.framework; path = System/Library/Frameworks/EventKitUI.framework; sourceTree = SDKROOT; };
 		5E6A1F8C1772315D00AE2361 /* NSString+Formatting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Formatting.h"; sourceTree = "<group>"; };
+		5E6A1F91177242B900AE2361 /* JCTicketSalesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCTicketSalesViewController.h; sourceTree = "<group>"; };
+		5E6A1F92177242B900AE2361 /* JCTicketSalesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCTicketSalesViewController.m; sourceTree = "<group>"; };
 		5E6E939B1771FBED00EFB683 /* Judson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Judson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6E939E1771FBED00EFB683 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E6E93A01771FBED00EFB683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -213,6 +217,8 @@
 				5E8102FE17720FA3004A1D9D /* JCBaseTableViewController.m */,
 				5E81030117721118004A1D9D /* JCEventFieldViewController.h */,
 				5E81030217721118004A1D9D /* JCEventFieldViewController.m */,
+				5E6A1F91177242B900AE2361 /* JCTicketSalesViewController.h */,
+				5E6A1F92177242B900AE2361 /* JCTicketSalesViewController.m */,
 			);
 			path = Judson;
 			sourceTree = "<group>";
@@ -411,6 +417,7 @@
 				5E8102FB17720E58004A1D9D /* JCEventScheduleViewController.m in Sources */,
 				5E8102FF17720FA3004A1D9D /* JCBaseTableViewController.m in Sources */,
 				5E81030317721118004A1D9D /* JCEventFieldViewController.m in Sources */,
+				5E6A1F93177242B900AE2361 /* JCTicketSalesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,6 +435,7 @@
 				5E8102FC17720E58004A1D9D /* JCEventScheduleViewController.m in Sources */,
 				5E81030017720FA3004A1D9D /* JCBaseTableViewController.m in Sources */,
 				5E81030417721118004A1D9D /* JCEventFieldViewController.m in Sources */,
+				5E6A1F94177242B900AE2361 /* JCTicketSalesViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

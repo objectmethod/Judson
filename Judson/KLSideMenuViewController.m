@@ -3,13 +3,12 @@
 #import "JCEventDetailsViewController.h"
 #import "JCEventScheduleViewController.h"
 #import "JCEventFieldViewController.h"
+#import "JCTicketSalesViewController.h"
 
 #import <MessageUI/MessageUI.h>
 #import <MessageUI/MFMailComposeViewController.h>
 
 @interface KLSideMenuViewController () <MFMailComposeViewControllerDelegate>
-
-@property (readonly) MFSideMenuContainerViewController *menuContainerViewController;
 
 @end
 
@@ -26,7 +25,8 @@ typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
 	KLSideMenuIndexPathRowEventSchedule = 1,
 	KLSideMenuIndexPathRowTheField = 2,
 	KLSideMenuIndexPathRowLiveScoring = 3,
-	KLSideMenuIndexPathRowSendFeedback = 4,
+	KLSideMenuIndexPathRowTicketSales = 4,
+	KLSideMenuIndexPathRowSendFeedback = 5,
 };
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -45,6 +45,9 @@ typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
 		case KLSideMenuIndexPathRowLiveScoring:
 			[self showLiveScoring];
 			break;
+		case KLSideMenuIndexPathRowTicketSales:
+			[self showTicketSales];
+			break;
 		case KLSideMenuIndexPathRowSendFeedback:
 			[self sendFeedback];
 			break;
@@ -56,6 +59,10 @@ typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
 }
 
 #pragma mark - Menu Items
+
+- (void) showTicketSales  {
+	[self showViewControllerOfClass:[JCTicketSalesViewController class] completion:nil];
+}
 
 - (void) showEventDetails  {
 	[self showViewControllerOfClass:[JCEventDetailsViewController class] completion:nil];
