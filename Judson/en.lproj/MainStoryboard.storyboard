@@ -167,6 +167,29 @@
                                             <constraint firstItem="abR-4f-TV7" firstAttribute="leading" secondItem="3Lz-rM-hd0" secondAttribute="leading" constant="20" type="default" id="yNo-cF-gir"/>
                                         </constraints>
                                     </tableViewCell>
+                                    <tableViewCell contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" id="A85-B7-HW5">
+                                        <rect key="frame" x="0.0" y="264" width="200" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="200" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="About This App" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDT-gR-Bfz">
+                                                    <constraints>
+                                                        <constraint firstAttribute="width" constant="140" id="XMf-Wv-1iP"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                                    <color key="highlightedColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                                </label>
+                                            </subviews>
+                                            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                        </view>
+                                        <constraints>
+                                            <constraint firstItem="qDT-gR-Bfz" firstAttribute="leading" secondItem="A85-B7-HW5" secondAttribute="leading" constant="20" type="default" id="OmF-1c-Lei"/>
+                                            <constraint firstItem="qDT-gR-Bfz" firstAttribute="top" secondItem="A85-B7-HW5" secondAttribute="top" constant="11" id="s2U-Zd-YCh"/>
+                                        </constraints>
+                                    </tableViewCell>
                                 </cells>
                             </tableViewSection>
                         </sections>
@@ -391,7 +414,13 @@
                             <outlet property="delegate" destination="gfH-sO-KPu" id="PrQ-Uk-gZj"/>
                         </connections>
                     </tableView>
-                    <navigationItem key="navigationItem" title="Ticket Sales" id="ifs-De-36z"/>
+                    <navigationItem key="navigationItem" title="Ticket Sales" id="ifs-De-36z">
+                        <barButtonItem key="leftBarButtonItem" image="menu-icon.png" id="Ds3-3Q-6wY">
+                            <connections>
+                                <action selector="menuButtonClicked:" destination="gfH-sO-KPu" id="DYX-gR-yna"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UIW-ek-1xk" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

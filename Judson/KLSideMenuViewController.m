@@ -27,6 +27,7 @@ typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
 	KLSideMenuIndexPathRowLiveScoring = 3,
 	KLSideMenuIndexPathRowTicketSales = 4,
 	KLSideMenuIndexPathRowSendFeedback = 5,
+	KLSideMenuIndexPathRowAbout = 6,
 };
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -51,6 +52,9 @@ typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
 		case KLSideMenuIndexPathRowSendFeedback:
 			[self sendFeedback];
 			break;
+		case KLSideMenuIndexPathRowAbout:
+			[self showAbout];
+			break;
 		default:
 			break;
 	}
@@ -59,6 +63,10 @@ typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
 }
 
 #pragma mark - Menu Items
+
+- (void) showAbout {
+	[[[UIAlertView alloc] initWithTitle:@"About Judson" message:@"This app is created for the greatest golf coach in the world: Jackie Cannizzo by her greatest student, Richard Guy" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
+}
 
 - (void) showTicketSales  {
 	[self showViewControllerOfClass:[JCTicketSalesViewController class] completion:nil];
