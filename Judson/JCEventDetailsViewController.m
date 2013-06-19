@@ -3,22 +3,14 @@
 
 @interface JCEventDetailsViewController ()
 
-- (IBAction)menuButtonClicked:(id)sender;
+
 
 @end
 
 @implementation JCEventDetailsViewController
 
-- (IBAction)menuButtonClicked:(id)sender {
-	[self.menuContainerViewController toggleLeftSideMenuCompletion:nil];
-}
-
-- (MFSideMenuContainerViewController *)menuContainerViewController {
-    return (MFSideMenuContainerViewController *)self.navigationController.parentViewController;
-}
-
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
-	[tableView deselectRowAtIndexPath:indexPath animated:YES];
+	[super tableView:tableView didSelectRowAtIndexPath:indexPath];
 	
 	switch (indexPath.section) {
 		case 0:
@@ -32,6 +24,7 @@
 		case 1:
 			switch (indexPath.row) {
 				case 0:
+					[self showMap];
 					break;
 				default:
 					break;
@@ -40,29 +33,13 @@
 		case 2:
 			switch (indexPath.row) {
 				case 0:
-					break;
-				default:
-					break;
-			}
-			break;
-		case 3:
-			switch (indexPath.row) {
-				case 0:
-					break;
-				default:
-					break;
-			}
-			break;
-		case 4:
-			switch (indexPath.row) {
-				case 0:
 					[self showCharity];
 					break;
 				default:
 					break;
 			}
 			break;
-		case 5:
+		case 3:
 			switch (indexPath.row) {
 				case 0:
 					[self showWebsite];
@@ -82,6 +59,10 @@
 
 - (void) showWebsite {
 	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://www.judsongolf.com"]];
+}
+
+- (void) showMap {
+	[[UIApplication sharedApplication] openURL:[NSURL URLWithString:@"http://maps.apple.com/?q=Country+Club+of+Roswell+2500+Club+Springs+Drive+Roswell,+GA+30076"]];
 }
 
 @end

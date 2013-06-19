@@ -1,7 +1,13 @@
 #import "KLSideMenuViewController.h"
 #import "MFSideMenu.h"
+#import "JCEventDetailsViewController.h"
+#import "JCEventScheduleViewController.h"
+#import "JCEventFieldViewController.h"
 
-@interface KLSideMenuViewController ()
+#import <MessageUI/MessageUI.h>
+#import <MessageUI/MFMailComposeViewController.h>
+
+@interface KLSideMenuViewController () <MFMailComposeViewControllerDelegate>
 
 @property (readonly) MFSideMenuContainerViewController *menuContainerViewController;
 
@@ -16,27 +22,31 @@
 #pragma mark - Table view delegate
 
 typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
-	KLSideMenuIndexPathRowProfile = 0,
-	KLSideMenuIndexPathRowSubmitFeedback = 1,
-	KLSideMenuIndexPathRowPlaces = 2,
-	KLSideMenuIndexPathRowLogout = 3,
+	KLSideMenuIndexPathRowEventDetails = 0,
+	KLSideMenuIndexPathRowEventSchedule = 1,
+	KLSideMenuIndexPathRowTheField = 2,
+	KLSideMenuIndexPathRowLiveScoring = 3,
+	KLSideMenuIndexPathRowSendFeedback = 4,
 };
 
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath {
 	[self.menuContainerViewController setMenuState:MFSideMenuStateClosed];
 	
 	switch (indexPath.row) {
-		case KLSideMenuIndexPathRowProfile:
-			[self showProfile];
+		case KLSideMenuIndexPathRowEventDetails:
+			[self showEventDetails];
 			break;
-		case KLSideMenuIndexPathRowSubmitFeedback:
+		case KLSideMenuIndexPathRowEventSchedule:
+			[self sendEventSchedule];
+			break;
+		case KLSideMenuIndexPathRowTheField:
+			[self showTheField];
+			break;
+		case KLSideMenuIndexPathRowLiveScoring:
+			[self showLiveScoring];
+			break;
+		case KLSideMenuIndexPathRowSendFeedback:
 			[self sendFeedback];
-			break;
-		case KLSideMenuIndexPathRowLogout:
-			[self logout];
-			break;
-		case KLSideMenuIndexPathRowPlaces:
-			[self showPlaces];
 			break;
 		default:
 			break;
@@ -47,20 +57,53 @@ typedef NS_ENUM(int, KLSideMenuIndexPathRow) {
 
 #pragma mark - Menu Items
 
-- (void) showProfile  {
-	
+- (void) showEventDetails  {
+	[self showViewControllerOfClass:[JCEventDetailsViewController class] completion:nil];
 }
 
-- (void) showPlaces {
+- (void) showTheField {
+	[self showViewControllerOfClass:[JCEventFieldViewController class] completion:nil];
+}
+
+- (void) sendEventSchedule {
+	[self showViewControllerOfClass:[JCEventScheduleViewController class] completion:nil];
+}
+
+- (void) showLiveScoring {
+	[[[UIAlertView alloc] initWithTitle:@"Sorry!" message:@"Live Scoring is not available yet." delegate:nil cancelButtonTitle:@"OK" otherButtonTitles:nil, nil] show];
+}
+
+- (UIViewController*) showViewControllerOfClass:(Class)class completion:(void(^)(UIViewController *viewController))completion {
+	UIViewController *viewController;
 	
+	UINavigationController *navigationController = self.menuContainerViewController.centerViewController;
+	
+	if (![navigationController.visibleViewController isKindOfClass:class]) {
+		viewController = [self.storyboard instantiateViewControllerWithIdentifier:NSStringFromClass(class)];
+		if (completion) {
+			completion(viewController);
+		}		
+		NSArray *controllers = [NSArray arrayWithObject:viewController];
+		navigationController.viewControllers = controllers;
+	}
+	
+	return viewController;
 }
 
 - (void) sendFeedback {
-	
+	if ([MFMailComposeViewController canSendMail]) {
+		MFMailComposeViewController *mailViewController = [[MFMailComposeViewController alloc] init];
+		mailViewController.mailComposeDelegate = self;
+		[mailViewController setToRecipients:@[@"jacgolf32@aol.com"]];
+		[mailViewController setSubject:@"Judson iPhone App Feedback"];
+
+		UINavigationController *navigationController = self.menuContainerViewController.centerViewController;
+		[navigationController presentViewController:mailViewController animated:YES completion:nil];
+	}
 }
 
-- (void) logout {
-	
+- (void)mailComposeController:(MFMailComposeViewController *)controller didFinishWithResult:(MFMailComposeResult)result error:(NSError *)error {
+	[self dismissViewControllerAnimated:YES completion:nil];
 }
 
 @end

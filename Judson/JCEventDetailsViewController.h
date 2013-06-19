@@ -1,3 +1,5 @@
-@interface JCEventDetailsViewController : UITableViewController
+#import "JCBaseTableViewController.h"
+
+@interface JCEventDetailsViewController : JCBaseTableViewController
 
 @end

@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3613F62817714126B8F263AF /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 41F496D6C05C47AF83968411 /* libPods.a */; };
+		5E38C73417721411005BA763 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E38C73317721411005BA763 /* MessageUI.framework */; };
 		5E6E939F1771FBED00EFB683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E939E1771FBED00EFB683 /* UIKit.framework */; };
 		5E6E93A11771FBED00EFB683 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A01771FBED00EFB683 /* Foundation.framework */; };
 		5E6E93A31771FBED00EFB683 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E6E93A21771FBED00EFB683 /* CoreGraphics.framework */; };
@@ -44,6 +45,12 @@
 		5E8102F41772025C004A1D9D /* JCEventDetailsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102F21772025C004A1D9D /* JCEventDetailsViewController.m */; };
 		5E8102F617720848004A1D9D /* icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8102F517720848004A1D9D /* icon.png */; };
 		5E8102F81772084E004A1D9D /* icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5E8102F71772084E004A1D9D /* icon@2x.png */; };
+		5E8102FB17720E58004A1D9D /* JCEventScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102FA17720E58004A1D9D /* JCEventScheduleViewController.m */; };
+		5E8102FC17720E58004A1D9D /* JCEventScheduleViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102FA17720E58004A1D9D /* JCEventScheduleViewController.m */; };
+		5E8102FF17720FA3004A1D9D /* JCBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102FE17720FA3004A1D9D /* JCBaseTableViewController.m */; };
+		5E81030017720FA3004A1D9D /* JCBaseTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E8102FE17720FA3004A1D9D /* JCBaseTableViewController.m */; };
+		5E81030317721118004A1D9D /* JCEventFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E81030217721118004A1D9D /* JCEventFieldViewController.m */; };
+		5E81030417721118004A1D9D /* JCEventFieldViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E81030217721118004A1D9D /* JCEventFieldViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +65,7 @@
 
 /* Begin PBXFileReference section */
 		41F496D6C05C47AF83968411 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E38C73317721411005BA763 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
 		5E6E939B1771FBED00EFB683 /* Judson.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Judson.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5E6E939E1771FBED00EFB683 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5E6E93A01771FBED00EFB683 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +104,12 @@
 		5E8102F21772025C004A1D9D /* JCEventDetailsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCEventDetailsViewController.m; sourceTree = "<group>"; };
 		5E8102F517720848004A1D9D /* icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = icon.png; sourceTree = "<group>"; };
 		5E8102F71772084E004A1D9D /* icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "icon@2x.png"; sourceTree = "<group>"; };
+		5E8102F917720E58004A1D9D /* JCEventScheduleViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCEventScheduleViewController.h; sourceTree = "<group>"; };
+		5E8102FA17720E58004A1D9D /* JCEventScheduleViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCEventScheduleViewController.m; sourceTree = "<group>"; };
+		5E8102FD17720FA3004A1D9D /* JCBaseTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBaseTableViewController.h; sourceTree = "<group>"; };
+		5E8102FE17720FA3004A1D9D /* JCBaseTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBaseTableViewController.m; sourceTree = "<group>"; };
+		5E81030117721118004A1D9D /* JCEventFieldViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCEventFieldViewController.h; sourceTree = "<group>"; };
+		5E81030217721118004A1D9D /* JCEventFieldViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCEventFieldViewController.m; sourceTree = "<group>"; };
 		F97B98CFC85F412CA6FC0281 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -104,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E38C73417721411005BA763 /* MessageUI.framework in Frameworks */,
 				5E6E939F1771FBED00EFB683 /* UIKit.framework in Frameworks */,
 				5E6E93A11771FBED00EFB683 /* Foundation.framework in Frameworks */,
 				5E6E93A31771FBED00EFB683 /* CoreGraphics.framework in Frameworks */,
@@ -151,6 +166,7 @@
 		5E6E939D1771FBED00EFB683 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				5E38C73317721411005BA763 /* MessageUI.framework */,
 				5E6E939E1771FBED00EFB683 /* UIKit.framework */,
 				5E6E93A01771FBED00EFB683 /* Foundation.framework */,
 				5E6E93A21771FBED00EFB683 /* CoreGraphics.framework */,
@@ -181,6 +197,12 @@
 				5E6E93A71771FBED00EFB683 /* Supporting Files */,
 				5E8102F11772025C004A1D9D /* JCEventDetailsViewController.h */,
 				5E8102F21772025C004A1D9D /* JCEventDetailsViewController.m */,
+				5E8102F917720E58004A1D9D /* JCEventScheduleViewController.h */,
+				5E8102FA17720E58004A1D9D /* JCEventScheduleViewController.m */,
+				5E8102FD17720FA3004A1D9D /* JCBaseTableViewController.h */,
+				5E8102FE17720FA3004A1D9D /* JCBaseTableViewController.m */,
+				5E81030117721118004A1D9D /* JCEventFieldViewController.h */,
+				5E81030217721118004A1D9D /* JCEventFieldViewController.m */,
 			);
 			path = Judson;
 			sourceTree = "<group>";
@@ -376,6 +398,9 @@
 				5E6E93F01771FD9600EFB683 /* KLAppConstants.m in Sources */,
 				5E8102E91772011C004A1D9D /* KLSideMenuViewController.m in Sources */,
 				5E8102F31772025C004A1D9D /* JCEventDetailsViewController.m in Sources */,
+				5E8102FB17720E58004A1D9D /* JCEventScheduleViewController.m in Sources */,
+				5E8102FF17720FA3004A1D9D /* JCBaseTableViewController.m in Sources */,
+				5E81030317721118004A1D9D /* JCEventFieldViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,6 +415,9 @@
 				5E6E93F11771FD9600EFB683 /* KLAppConstants.m in Sources */,
 				5E8102EA1772011C004A1D9D /* KLSideMenuViewController.m in Sources */,
 				5E8102F41772025C004A1D9D /* JCEventDetailsViewController.m in Sources */,
+				5E8102FC17720E58004A1D9D /* JCEventScheduleViewController.m in Sources */,
+				5E81030017720FA3004A1D9D /* JCBaseTableViewController.m in Sources */,
+				5E81030417721118004A1D9D /* JCEventFieldViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -491,10 +519,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F97B98CFC85F412CA6FC0281 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Judson/Judson-Prefix.pch";
 				INFOPLIST_FILE = "Judson/Judson-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -503,10 +535,14 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F97B98CFC85F412CA6FC0281 /* Pods.xcconfig */;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Judson/Judson-Prefix.pch";
 				INFOPLIST_FILE = "Judson/Judson-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
