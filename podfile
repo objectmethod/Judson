@@ -5,3 +5,4 @@ inhibit_all_warnings!
 
 pod 'BlockAlertsAnd-ActionSheets'
 pod 'MFSideMenu'
+pod 'TestFlightSDK'

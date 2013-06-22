@@ -2,6 +2,7 @@
 #import "KLCoreDataController.h"
 #import "MFSideMenu.h"
 #import "KLSideMenuViewController.h"
+#import "TestFlight.h"
 
 @interface JCAppDelegate ()
 
@@ -13,6 +14,13 @@
 @end
 
 @implementation JCAppDelegate
+
+#pragma mark - Test Flight
+
+- (void) setupTestFlight {
+	[TestFlight setDeviceIdentifier:[[UIDevice currentDevice] uniqueIdentifier]];
+	[TestFlight takeOff:@"0e1bb9d2-b4fe-4315-b1c9-b415e09ec01a"];
+}
 
 #pragma mark - Side Menu
 
@@ -29,7 +37,8 @@
 #pragma mark - AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-	[self setupSideMenu];
+	[self setupTestFlight];
+	[self setupSideMenu];	
     return YES;
 }
 

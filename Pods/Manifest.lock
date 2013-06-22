@@ -3,13 +3,16 @@ PODS:
     - BlockAlertsAnd-ActionSheets/TableAlertView
   - BlockAlertsAnd-ActionSheets/TableAlertView (1.0.5)
   - MFSideMenu (0.5.2)
+  - TestFlightSDK (1.3.0-beta.6)
 
 DEPENDENCIES:
   - BlockAlertsAnd-ActionSheets
   - MFSideMenu
+  - TestFlightSDK
 
 SPEC CHECKSUMS:
   BlockAlertsAnd-ActionSheets: 34d4608673b6787ca4835d70913f473919b83aa5
   MFSideMenu: 5b27d9a112680a98458defbb2863cda45f2f2ffd
+  TestFlightSDK: f3e516c64f61abedeb26a7b184101df54df3db09
 
 COCOAPODS: 0.19.1
