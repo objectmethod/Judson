@@ -537,14 +537,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F97B98CFC85F412CA6FC0281 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Big Nerd Ranch, Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Big Nerd Ranch, Inc";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Judson/Judson-Prefix.pch";
 				INFOPLIST_FILE = "Judson/Judson-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "E72E3F5C-C05E-456D-B699-6679CEADEC0F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E72E3F5C-C05E-456D-B699-6679CEADEC0F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -553,14 +554,15 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F97B98CFC85F412CA6FC0281 /* Pods.xcconfig */;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Big Nerd Ranch, Inc";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Big Nerd Ranch, Inc";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Judson/Judson-Prefix.pch";
 				INFOPLIST_FILE = "Judson/Judson-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE = "";
-				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "";
+				PROVISIONING_PROFILE = "E72E3F5C-C05E-456D-B699-6679CEADEC0F";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "E72E3F5C-C05E-456D-B699-6679CEADEC0F";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
